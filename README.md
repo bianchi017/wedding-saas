@@ -30,6 +30,14 @@ npm run lint
 npm run build
 ```
 
+## Publicación gratuita
+
+El proyecto está configurado para publicar una versión estática con GitHub Pages cada vez que se envían cambios a `main`.
+
+En el repositorio, abrí **Settings > Pages** y, en **Build and deployment**, elegí **GitHub Actions** como fuente. Tras el siguiente push, la invitación quedará disponible en `https://bianchi017.github.io/wedding-saas/`.
+
+GitHub Pages es adecuado para esta invitación estática. Las funciones futuras que necesiten servidor —autenticación, RSVP persistente, administración y estadísticas— se desplegarán en una plataforma compatible con Next.js y Supabase.
+
 ## Estructura
 
 ```text

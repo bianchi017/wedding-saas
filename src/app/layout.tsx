@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Wedding SaaS | Sofía & Tomás",
-  description: "Una invitación digital de casamiento.",
+  title: "Romina & Nicolás | Nuestra boda",
+  description: "Invitación digital de casamiento de Romina y Nicolás.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
